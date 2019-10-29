@@ -1,8 +1,22 @@
-# SE-340-Chatbot-and-Scheduler
-Project for semester class SE 340
+---
+topic: ASP.NET and SQL Database sample for Azure App Service
+languages:
+  - aspx-csharp
+products:
+  - Azure App Service
+  - Azure Web Apps
+---
 
-The documentation for the project is located in the SRS and SDD documents. They contain all UML diagrams and rquirements, as well as 
-the layout used for the architecture of the project. The scope of the project is also located in these files.
+# ASP.NET and SQL Database sample for Azure App Service
 
-This project is to satisfy the requirements of the SE340 Undergraduate Research Methodology class at St. Cloud State University.
+This is a sample application that you can use to follow along with the tutorial at 
+[Create an ASP.NET app in Azure with SQL Database](https://docs.microsoft.com/en-us/azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase/). 
 
+## License
+
+See [LICENSE](LICENSE).
+
+## Contributing
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+  
