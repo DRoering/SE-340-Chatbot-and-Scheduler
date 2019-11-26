@@ -1,0 +1,80 @@
+﻿@{
+    ViewBag.Title = "Billing and Payment";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Medicalbill</title>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    <link href="~/Content/style3.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <nav id="topnav">
+        <div class="menu"></div>
+        <ul>
+            <li><a href="#">Log in </a></li>
+            <li><a href="#">Career</a></a></li>
+            <li><a href="#">About Us </a></li>
+            <li><a href="#">Contact </a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1 id="main">GRAND MOUNTAIN CLINIC</h1>
+    </header>
+    <nav id="downnav">
+        <div class="menu2"></div>
+        <ul>
+            <li><a href="#">Services </a></li>
+            <li><a href="#">Pharmacy</a></a></li>
+            <li><a href="#">New Patients</a></li>
+            <li><a href="#">Care Team</a></li>
+        </ul>
+    </nav>
+    <header>Bill Payment Center</header>
+    <form>
+        <fieldset>
+            <legend>Account Details</legend>
+            <label>Statement Date: <input type="date" name="date"></label>
+            <label>Account Number:<input type="text" name="acnumber"></label>
+            <label>Amount Due$:<input type="text" name="money"></label>
+            <label>Payment Amount$:<input type="text" name="paid"></label>
+            <label>Patient Name:<input type="text" name="pname"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Credit / Debit Card Information</legend>
+            <label>Pay Amount $:<input type="number" name="pamount"></label>
+            <label>
+                Card Type:<select name="cardtype" form="cardtype">
+                    <option value="volvo">Visa</option>
+                    <option value="saab">Master Card</option>
+                    <option value="opel">Amex</option>
+                    <option value="audi">Discover</option>
+                </select>
+            </label>
+
+
+            <label>Name on Card:<input type="text" name="caname"></label>
+            <label>Payment Amount$:<input type="text" name="atopay"></label>
+            <label>Card Number:<input type="text" name="cnumber"></label>
+            <label>Expiration Date:<input type="month" name="edate"></label>
+            <label>Verification Code:<input type="number" name="vcode"></label>
+            <label>Telephone:<input type="tel" name="pnumber"></label>
+            <label>Address:<input type="text" name="baddress"></label>
+            <label>City:<input type="text" name="bcity"></label>
+            <label>State:<input type="text" name="bstate"></label>
+            <label>Zip Code:<input type="text" name="bzcode"></label>
+            <label>I accept the Payment terms <input type="checkbox" name="pterms"></label>
+
+        </fieldset>
+        <fieldset>
+            <button>Process Payment</button>
+            <button>Cancel</button>
+        </fieldset>
+    </form>
+</body>
+</html>
